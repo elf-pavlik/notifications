@@ -1,0 +1,8 @@
+sequenceDiagram
+  participant Notification Receiver
+  participant Notification Sender
+
+  loop while channel active
+    Notification Receiver ->> Notification Sender: Establish connection to the receiveFrom
+    Notification Sender -->> Notification Receiver: Stream notifications
+  end

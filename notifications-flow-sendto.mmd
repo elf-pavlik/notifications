@@ -1,0 +1,7 @@
+sequenceDiagram
+  participant Notification Sender
+  participant Notification Receiver
+
+  loop while channel active
+    Notification Sender ->> Notification Receiver: Send notifications to the sendTo
+  end

@@ -2,7 +2,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Solid Notifications: WebSocketSubscription2021</title>
+    <title>Solid Notifications: WebSocketChannel2023</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link href="https://www.w3.org/StyleSheets/TR/2021/W3C-ED" media="all" rel="stylesheet" title="W3C-ED" />
 <style>
@@ -133,20 +133,20 @@ content: "";
 
     <main>
       <article about="" typeof="schema:Article doap:Specification">
-        <h1 property="schema:name">WebSocketSubscription2021</h1>
-        <h2>Editor’s Draft, 2022-12-01</h2>
+        <h1 property="schema:name">WebSocketChannel2023</h1>
+        <h2>Editor’s Draft, 2022-12-27</h2>
 
         <details open="">
           <summary>More details about this document</summary>
 
           <dl id="document-identifier">
             <dt>This version</dt>
-            <dd><a href="https://solid.github.io/notifications/websocket-subscription-2021" rel="owl:sameAs">https://solid.github.io/notifications/websocket-subscription-2021</a></dd>
+            <dd><a href="https://solid.github.io/notifications/websocket-channel-2023" rel="owl:sameAs">https://solid.github.io/notifications/websocket-channel-2023</a></dd>
           </dl>
 
           <dl id="document-latest-version">
             <dt>Latest version</dt>
-            <dd><a href="https://solid.github.io/notifications/websocket-subscription-2021" rel="rel:latest-version">https://solid.github.io/notifications/websocket-subscription-2021</a></dd>
+            <dd><a href="https://solid.github.io/notifications/websocket-channel-2023" rel="rel:latest-version">https://solid.github.io/notifications/websocket-channel-2023</a></dd>
           </dl>
 
           <div id="authors">
@@ -158,17 +158,17 @@ content: "";
 
           <dl id="document-created">
             <dt>Created</dt>
-            <dd><time content="2021-12-23T00:00:00Z" datatype="xsd:dateTime" datetime="2021-12-23T00:00:00Z" property="schema:dateCreated">2021-12-23</time></dd>
+            <dd><time content="2022-12-27T00:00:00Z" datatype="xsd:dateTime" datetime="2022-12-27T00:00:00Z" property="schema:dateCreated">2022-12-27</time></dd>
           </dl>
 
           <dl id="document-published">
             <dt>Published</dt>
-            <dd><time content="2021-12-23T00:00:00Z" datatype="xsd:dateTime" datetime="2021-12-23T00:00:00Z" property="schema:datePublished">2021-12-23</time></dd>
+            <dd><time content="2022-12-27T00:00:00Z" datatype="xsd:dateTime" datetime="2022-12-27T00:00:00Z" property="schema:datePublished">2022-12-27</time></dd>
           </dl>
 
           <dl id="document-modified">
             <dt>Modified</dt>
-            <dd><time content="2022-12-01T00:00:00Z" datatype="xsd:dateTime" datetime="2022-12-01T00:00:00Z" property="schema:dateModified">2022-12-01</time></dd>
+            <dd><time content="2022-12-27T00:00:00Z" datatype="xsd:dateTime" datetime="2022-12-27T00:00:00Z" property="schema:dateModified">2022-12-27</time></dd>
           </dl>
 
           <dl id="document-repository">
@@ -206,9 +206,9 @@ content: "";
                 <dt>Rule</dt>
                 <dd><a about="#document-policy-offer" href="https://www.w3.org/TR/odrl-vocab/#term-Offer" typeof="odrl:Offer">Offer</a></dd>
                 <dt>Unique Identifier</dt>
-                <dd><a href="https://solid.github.io/notifications/websocket-subscription-2021#document-policy-offer" rel="odrl:uid">https://solid.github.io/notifications/websocket-subscription-2021#document-policy-offer</a></dd>
+                <dd><a href="https://solid.github.io/notifications/websocket-channel-2023#document-policy-offer" rel="odrl:uid">https://solid.github.io/notifications/websocket-channel-2023#document-policy-offer</a></dd>
                 <dt>Target</dt>
-                <dd><a href="https://solid.github.io/notifications/websocket-subscription-2021" rel="odrl:target">https://solid.github.io/notifications/websocket-subscription-2021</a></dd>
+                <dd><a href="https://solid.github.io/notifications/websocket-channel-2023" rel="odrl:target">https://solid.github.io/notifications/websocket-channel-2023</a></dd>
                 <dt>Permission</dt>
                 <dd>
                   <dl id="document-permission" rel="odrl:permission" resource="#document-permission" typeof="odrl:Permission">
@@ -291,7 +291,7 @@ content: "";
                   </ol>
                 </li>
                 <li class="tocline">
-                  <a class="tocxref" href="#subscription-type"><span class="secno">2</span> <span class="content">WebSocketSubscription2021 Type</span></a>
+                  <a class="tocxref" href="#subscription-type"><span class="secno">2</span> <span class="content">WebSocketChannel2023 Type</span></a>
                   <ol>
                     <li class="tocline">
                       <a class="tocxref" href="#websocket-subscription"><span class="secno">2.1</span> Subscription Example</a>
@@ -345,9 +345,9 @@ content: "";
                   <p>The following diagram shows the high-level interactions involved in this flow. How a client retrieves an access token for step 5 is outside the scope of this document.</p>
 
                   <figure id="solid-websocket-flow" rel="schema:hasPart" resource="#solid-websocket-flow">
-                    <img src="websocket-subscription-2021-flow.mmd.svg" rel="schema:image" width="800" />
+                    <img src="websocket-channel-2023-flow.mmd.svg" rel="schema:image" width="800" />
 
-                    <figcaption property="schema:name">Solid WebSocketSubscription2021 Flow</figcaption>
+                    <figcaption property="schema:name">Solid WebSocketChannel2023 Flow</figcaption>
                   </figure>
                 </div>
               </section>
@@ -364,25 +364,16 @@ content: "";
           </section>
 
           <section id="subscription-type" inlist="" rel="schema:hasPart" resource="#subscription-type">
-            <h2 property="schema:name">WebSocketSubscription2021 Type</h2>
+            <h2 property="schema:name">WebSocketChannel2023 Type</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>This specification defines the <code>WebSocketSubscription2021</code> type for use with Solid Notifications subscriptions that use the WebSocket Web API. The URI of the subscription type is <code>http://www.w3.org/ns/solid/notification#WebSocketSubscription2021</code>.</p>
-              <p>An <code>WebSocketSubscription2021</code> API MUST conform to the <cite><a href="https://solid.github.io/notifications/protocol#discovery">Solid Notifications Protocol</a></cite>. [<cite><a class="bibref" href="#bib-solid-notifications">SOLID-NOTIFICATIONS</a></cite>]</p>
+              <p>This specification defines the <code>WebSocketChannel2023</code> type for use with Solid Notifications subscriptions that use the WebSocket Web API. The URI of the subscription type is <code>http://www.w3.org/ns/solid/notification#WebSocketChannel2023</code>.</p>
+              <p>An <code>WebSocketChannel2023</code> API MUST conform to the <cite><a href="https://solid.github.io/notifications/protocol#discovery">Solid Notifications Protocol</a></cite>. [<cite><a class="bibref" href="#bib-solid-notifications">SOLID-NOTIFICATIONS</a></cite>]</p>
 
-              <p>An <code>WebSocketSubscription2021</code> API SHOULD support the <cite><a href="https://solid.github.io/notifications/protocol#notification-features">Solid Notifications Features</a></cite>.</p>
+              <p>An <code>WebSocketChannel2023</code> API SHOULD support the <cite><a href="https://solid.github.io/notifications/protocol#notification-features">Solid Notifications Features</a></cite>.</p>
 
-              <p property="skos:definition">The <code>WebSocketSubscription2021</code> type defines the following properties:</p>
+              <p>A client establishes a subscription using the <code>WebSocketChannel2023</code> type by sending an authorized subscription request to the hypermedia API retrieved via <cite><a href="https://solid.github.io/notifications/protocol#discovery">Solid Notifications discovery</a></cite>.</p>
 
-              <span rel="skos:hasTopConcept"><span resource="#websocketsubscription2021-source"></span></span>
-
-              <dl>
-                <dt about="#websocketsubscription2021-source" property="skos:prefLabel" typeof="skos:Concept"><dfn id="websocketsubscription2021-source">source</dfn></dt>
-                <dd about="#websocketsubscription2021-source" property="skos:definition"><span about="" id="websocketsubscription2021-source-wss" rel="spec:requirement" resource="#websocketsubscription2021-source-wss"><span property="spec:statement">The <code>source</code> property is used in the body of the subscription response. The value of this property <span rel="spec:requirementLevel" resource="spec:MUST">MUST</span> be a URI, using the <code>wss</code> scheme.</span></span> A JavaScript client would use the entire value as input to the WebSocket constructor.</dd>
-              </dl>
-
-              <p>A client establishes a subscription using the <code>WebSocketSubscription2021</code> type by sending an authenticated subscription request to the hypermedia API retrieved via <cite><a href="https://solid.github.io/notifications/protocol#discovery">Solid Notifications discovery</a></cite>.</p>
-
-              <p>For <code>WebSocketSubscription2021</code> interactions, the client sends a JSON-LD payload to the appropriate hypermedia API via <code>POST</code>. The only required fields in this interaction are <code>type</code> and <code>topic</code>. <span about="" id="client-subcription-type" rel="spec:requirement" resource="#client-subscription-type"><span property="spec:statement">The <code>type</code> field <span rel="spec:requirementLevel" resource="spec:MUST">MUST</span> contain the type of subscription being requested.</span></span> <span about="" id="client-subscription-feature" rel="spec:requirement" resource="#client-subscription-feature"><span property="spec:statement">The <code>topic</code> field <span rel="spec:requirementLevel" resource="spec:MUST">MUST</span> contain the URL of the resource a client wishes to subscribe to changes.</span></span></p>
+              <p>For <code>WebSocketChannel2023</code> interactions, the client sends a JSON-LD payload to the appropriate hypermedia API via <code>POST</code>. The only required fields in this interaction are <code>type</code> and <code>topic</code>. <span about="" id="client-subcription-type" rel="spec:requirement" resource="#client-subscription-type"><span property="spec:statement">The <code>type</code> field <span rel="spec:requirementLevel" resource="spec:MUST">MUST</span> contain the type of subscription being requested.</span></span> <span about="" id="client-subscription-feature" rel="spec:requirement" resource="#client-subscription-feature"><span property="spec:statement">The <code>topic</code> field <span rel="spec:requirementLevel" resource="spec:MUST">MUST</span> contain the URL of the resource a client wishes to subscribe to changes.</span></span></p>
 
               <section id="websocket-subscription" inlist="" rel="schema:hasPart" resource="#websocket-subscription">
                 <h3 property="schema:name">Subscription Example</h3>
@@ -401,10 +392,10 @@ content: "";
 <code></code>
 <code>{</code>
 <code>  "@context": ["https://www.w3.org/ns/solid/notification/v1"],</code>
-<code>  "type": "WebSocketSubscription2021",</code>
+<code>  "type": "WebSocketChannel2023",</code>
 <code>  "topic": "https://storage.example/resource",</code>
 <code>  "state": "opaque-state",</code>
-<code>  "expiration": "2021-12-23T12:37:15Z",</code>
+<code>  "endAt": "2022-12-27T12:37:15Z",</code>
 <code>  "rate": "PT10s"</code>
 <code>}</code></pre>
 
@@ -421,11 +412,12 @@ content: "";
 <code></code>
 <code>{</code>
 <code>  "@context": "https://www.w3.org/ns/solid/notification/v1",</code>
-<code>  "type": "WebSocketSubscription2021",</code>
-<code>  "source": "wss://websocket.example/?auth=Ys3KiUq"</code>
+<code>  "type": "WebSocketChannel2023",</code>
+<code>  "topic": "https://storage.example/data/resource",</code>
+<code>  "receiveFrom": "wss://websocket.example/?auth=Ys3KiUq"</code>
 <code>}</code></pre>
 
-                    <figcaption property="schema:name">Response to the <code>POST</code> request including <code>type</code> and <code>source</code>.</figcaption>
+                    <figcaption property="schema:name">Response to the <code>POST</code> request including <code>type</code> and <code>receiveFrom</code>.</figcaption>
                   </figure>
 
                   <p>In JavaScript, a client can use the data in the response to establish a connection to the WebSocket hypermedia API.</p>
@@ -433,7 +425,7 @@ content: "";
                   <figure id="websocket-new" class="example listing" rel="schema:hasPart" resource="#websocket-new">
                     <p class="example-h"><span>Example</span>: Establishing a new WebSocket connection.</p>
 
-                    <pre about="#websocket-new" property="schema:description" typeof="fabio:Script"><code>const ws = new WebSocket(source, type);</code></pre>
+                    <pre about="#websocket-new" property="schema:description" typeof="fabio:Script"><code>const ws = new WebSocket(receiveFrom, type);</code></pre>
 
                     <figcaption property="schema:name">JavaScript code to establish a <code>new WebSocket</code> connection</figcaption>
                   </figure>
