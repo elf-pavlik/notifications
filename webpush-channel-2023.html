@@ -5,9 +5,9 @@
   <title>Solid WebPushChannel2023</title>
   <meta content="CG-DRAFT" name="w3c-status">
   <link href="https://www.w3.org/StyleSheets/TR/2021/cg-draft" rel="stylesheet">
-  <meta content="Bikeshed version c3a8ac783, updated Wed Jul 24 12:20:06 2024 -0700" name="generator">
+  <meta content="Bikeshed version 6270e4735, updated Tue Aug 6 12:12:30 2024 -0700" name="generator">
   <link href="https://solid.github.io/notifications/webpush-channel-2023" rel="canonical">
-  <meta content="eb2b72f2beb129e9e1b1c0fa061ee1535eb7cd45" name="revision">
+  <meta content="0a5453c56edbd47c9eae8a07d1ac686fc6e0c883" name="revision">
   <meta content="dark light" name="color-scheme">
   <link href="https://www.w3.org/StyleSheets/TR/2021/dark.css" media="(prefers-color-scheme: dark)" rel="stylesheet" type="text/css">
 <style>/* Boilerplate: style-autolinks */
@@ -533,7 +533,7 @@ c-[il] { color: #000000 } /* Literal.Number.Integer.Long */
   <div class="head">
    <p data-fill-with="logo"><a class="logo" href="https://www.w3.org/"> <img alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2021/logos/W3C" width="72"> </a> </p>
    <h1 class="p-name no-ref" id="title">Solid WebPushChannel2023</h1>
-   <p id="w3c-state"><a href="https://www.w3.org/standards/types#CG-DRAFT">Draft Community Group Report</a>, <time class="dt-updated" datetime="2024-07-31">31 July 2024</time></p>
+   <p id="w3c-state"><a href="https://www.w3.org/standards/types#CG-DRAFT">Draft Community Group Report</a>, <time class="dt-updated" datetime="2024-09-06">6 September 2024</time></p>
    <details open>
     <summary>More details about this document</summary>
     <div data-fill-with="spec-metadata">
@@ -614,17 +614,24 @@ c-[il] { color: #000000 } /* Literal.Number.Integer.Long */
    </ul>
    <h3 class="heading settled" data-level="1.1" id="terminology"><span class="secno">1.1. </span><span class="content">Terminology</span><a class="self-link" href="#terminology"></a></h3>
    <p><em>This section is non-normative.</em></p>
-   <p>This document uses terminology from the <a data-link-type="biblio" href="#biblio-solid-notifications" title="Solid Notifications Protocol">[SOLID-NOTIFICATIONS]</a> protocol,
-  including "Notification Subscription Service".</p>
    <div class="issue no-marker" id="issue-d41d8cd9"><a class="self-link" href="#issue-d41d8cd9"></a><a class="marker" href="https://github.com/solid/notifications/issues/62" style="text-transform:none">solid/notifications/62</a><a href="https://github.com/solid/notifications/issues/62">:bike: shed: Use `object` (closely aligned with AS) instead of `topic` to receive notifications about a resource</a></div>
    <p class="note" role="note"><span class="marker">Note:</span> Let the predicate <code>topic</code> be an <code>rdfs:subClassOf</code> of <code>as:object</code>?</p>
-   <p>The document further uses terms from <a data-link-type="biblio" href="#biblio-push-api" title="Push API">[PUSH-API]</a> specification,
-  including "push endpoint", "push service" and "authentication secret".
-It also uses terms from <a data-link-type="biblio" href="#biblio-oauth-20" title="The OAuth 2.0 Authorization Framework">[OAUTH-2.0]</a> specification,
-  including  "authorization server" and "access token".
-In addition, the document uses terms from the <a data-link-type="biblio" href="#biblio-webarch" title="Architecture of the World Wide Web, Volume One">[WEBARCH]</a> specification, 
-  including "information resource".</p>
-   <p>This document uses the following terms as defined below:</p>
+   <p>This document uses terms from the following specifications, as listed:</p>
+   <ul>
+    <li data-md>
+     <p>from the <a data-link-type="biblio" href="#biblio-solid-notifications" title="Solid Notifications Protocol">[SOLID-NOTIFICATIONS]</a> protocol, terms including
+"Notification Subscription Service"</p>
+    <li data-md>
+     <p>from the <a data-link-type="biblio" href="#biblio-push-api" title="Push API">[PUSH-API]</a> specification, terms including
+"push endpoint", "push service", and "authentication secret"</p>
+    <li data-md>
+     <p>from the <a data-link-type="biblio" href="#biblio-oauth-20" title="The OAuth 2.0 Authorization Framework">[OAUTH-2.0]</a> specification, terms including
+"authorization server" and "access token"</p>
+    <li data-md>
+     <p>from the <a data-link-type="biblio" href="#biblio-webarch" title="Architecture of the World Wide Web, Volume One">[WEBARCH]</a> specification, terms including
+"information resource"</p>
+   </ul>
+   <p>This document additionally uses the following terms, as defined below:</p>
    <dl>
     <dt data-md>browser messaging service
     <dd data-md>
